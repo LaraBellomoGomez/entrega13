@@ -22,7 +22,7 @@ mas.addEventListener("click", () => {
     let contador = Number(cantidad.innerHTML);
     contador += 1;
     cantidad.innerHTML = contador;
-    actualizarTotal(); // ✅ actualizamos el total
+    actualizarTotal(); 
 });
 
 menos.addEventListener("click", () => {
@@ -30,6 +30,6 @@ menos.addEventListener("click", () => {
     if (contador > 0) {
         contador -= 1;
         cantidad.innerHTML = contador;
-        actualizarTotal(); // ✅ actualizamos el total
+        actualizarTotal(); 
     }
 });
