@@ -1,3 +1,7 @@
+body{
+    background-color: antiquewhite;
+}
+
 img {
     height: 600px;
     width: 350px;
@@ -24,6 +28,13 @@ img {
 
 h1 {
     margin: 20px;
+    font-size: 25px;
+}
+
+h2{
+    margin: 20px;
+    font-size: 20px;
+    color: black;
 }
 
 .texto{
@@ -34,4 +45,8 @@ h1 {
     height: 30px;
     width: 130px;
     margin-left: 150px;
+}
+
+.btn{
+    margin-left: 310px;
 }
